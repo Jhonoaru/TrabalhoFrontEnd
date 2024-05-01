@@ -14,7 +14,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
-    width: 400px; /* Aumentei a largura */
+    width: 400px;
 }
 
 .logo-login {
@@ -40,18 +40,18 @@ a {
 }
 
 .inputs-container {
-    margin-top: 20px; /* Adicionei margem no topo */
-    text-align: left; /* Alinhei os inputs à esquerda */
+    margin-top: 20px;
+    text-align: left;
 }
 
 .input-group {
     display: flex;
-    justify-content: space-between; /* Espaçamento entre os inputs */
-    margin-bottom: 10px; /* Adicionei margem entre os grupos de inputs */
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .input-group input {
-    width: calc(50% - 5px); /* Dividi o espaço em dois com 5px de margem entre eles */
+    width: calc(50% - 5px);
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -59,13 +59,14 @@ a {
 }
 
 .input-group input:first-child {
-    margin-right: 10px; /* Adicionei margem à direita apenas no primeiro input do grupo */
+    margin-right: 10px;
 }
 
 input[type="text"],
 input[type="email"],
-input[type="password"] {
-    width: 100%; /* Ocupa a largura total */
+input[type="password"],
+input[type="tel"] {
+    width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
