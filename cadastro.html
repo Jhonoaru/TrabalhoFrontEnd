@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cadastro.css">
     <title>Cadastro</title>
+
+    <script>
+        function login() {
+            
+            window.location.href = 'login.html';
+        }
+    </script>
 </head>
 <body>
     <div class="cadastro-container">
@@ -16,7 +23,7 @@
             <input type="text" placeholder="CPF">
             <input type="email" placeholder="Exemplo@gmail.com">
             <input type="password" placeholder="Senha">
-            <button>Cadastrar</button>
+            <button onclick="login()">Cadastrar</button>
             <a href="login.html">Já tem uma conta? Faça login</a>
         </div>
     </div>
